@@ -1,15 +1,5 @@
-if 3 > 2:
-    x = 300
-else:
-    x = 400
-print(x)
-def test():
-    print("test")
-test()
+name = input ("Enter your name: ")
+age = int(input("Enter your age: "))
+print(f"Hello {name}, you are {age} years old.")
 
-def test2():
-    print("test2")
-test2()
-def test3():
-    print("test3")
-test3()
+print("This is a test file for the style guide.")
